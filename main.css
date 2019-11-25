@@ -1,0 +1,77 @@
+
+
+body{
+    max-width: 90%;
+    margin:auto;
+    background-color: #cae2cb;
+    background-image: url("https://cdn-images-1.medium.com/max/1000/1*2PCmLZyzQaF2pyKYkSTFpA.jpeg");
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: -webkit-linear-gradient(10deg, rgb(156, 118, 169), rgb(156, 202, 248));
+
+}
+
+.part1{
+
+    ;
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+q{
+    width: 50%;
+    margin: auto;
+    font-size: 160%;
+    background-color: #bfb5d3;
+    border-left: 3px solid;
+    padding: 30px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    font-style: italic;
+    display: block;
+}
+
+
+
+img{
+float: left;
+    width: 50%;
+    margin: 30px;
+
+}
+
+.video{
+    cursor: pointer;
+
+}
+
+part1{
+    display: inline-block;
+    display: inline-flex;
+}
+
+.story{
+
+    display: inline-block;
+    padding: 80px 30px 80px 30px;
+
+}
+
+.villagers{
+
+    border-left-style: solid;
+    border-left-color: #aa4c53;
+}
+
+.farmer{
+
+    border-left-style: solid;
+    border-left-color: #082865;
+}
+footer {
+    background-color: #b09ed3;
+    padding: 20px;
+}
