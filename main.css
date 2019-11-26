@@ -13,6 +13,7 @@ body{
     background: -webkit-linear-gradient(10deg, rgb(156, 118, 169), rgba(137, 153, 156, 0.92));
 
     display: inline-block;
+    font-family: Roboto;
 
 }
 
