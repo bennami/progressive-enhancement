@@ -3,80 +3,87 @@
     font-family: 'Roboto', sans-serif;
 }
 body{
-    max-width: 90%;
-    margin:auto;
-    background-color: #cae2cb;
+
+
+
   /*  background-image: url("https://cdn-images-1.medium.com/max/1000/1*2PCmLZyzQaF2pyKYkSTFpA.jpeg");
     background-position: bottom right;
     background-repeat: no-repeat;
     background-size: cover;*/
     background: -webkit-linear-gradient(10deg, rgb(156, 118, 169), rgba(137, 153, 156, 0.92));
 
-    display: inline-block;
-    font-family: Roboto;
 
+    font-family: Roboto, sans-serif;
+    margin: auto;
 }
 
-.part1{
+main{
+    margin: auto;
+}
+
+
+header{
     color: white;
-    background-repeat: no-repeat;
-    background-size: cover;
-
+    position: fixed;
+    background: #082865;
+    width: 120%;
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
+
+
 q{
     width: 50%;
-    margin: auto;
-    font-size: 160%;
+    font-size: 150%;
     background-color: #bfb5d3;
     border-left: 3px solid;
-    padding: 30px;
-    margin-top: 80px;
-    margin-bottom: 80px;
+    padding: 20px;
+    margin: 30px auto;
     font-style: italic;
-    display: inline-block;
+    Display: block;
 }
 
 
 
 img{
-float: left;
-    width: 50%;
-    margin: 30px;\
+
+    height:300px;
     /*display: inline-block;*/
-
-}
-
-.video{
-    cursor: pointer;
-
-}
-
-part1{
-    display: inline-block;
-    display: inline-flex;
 }
 
 .story{
+    width: 60%;
+}
+.video{
+    cursor: pointer;
+}
 
-    display: inline-block;
-    padding: 80px 30px 80px 30px;
+
+.story{
+
+    display: block;
+    padding: 30px 30px 10px 30px;
+    margin: auto;
 
 }
 
 .villagers{
 
     border-left-style: solid;
-    border-left-color: #aa4c53;
+    border-left-color: #aa2064;
 }
 
 .farmer{
 
     border-left-style: solid;
-    border-left-color: #082865;
+    border-left-color: #421b65;
 }
+
 footer {
     background-color: #b09ed3;
     padding: 20px;
+    width: 100%
 }
 
 .good,.bad{
@@ -85,62 +92,105 @@ footer {
 }
 
 .good{
-    color: darkgreen;
+    color: #264f3a;
 
 }
 
 .bad{
 
-    color: darkred;
+    color: #8b364f;
 
 }
 
-table{
-    border-collapse: collapse;
 
+tr:nth-child(even){
+    background-color: #f2f2f2;
 }
-tr:nth-child(even){background-color: #f2f2f2;}
-tr:nth-child(odd){background-color: #89999c;}
+tr:nth-child(odd){
+    background-color: #8147a9;
+color: #f2f2f2;}
 
 p:first-of-type {
     font-weight: bold;
-}
-
-p.story{
-display: block;
-    float: snap;
 }
 
 /*.container{
     display: flex;
 } */
 
-.imglink{
 
-}
-
-.list{
-
-}
-
-.chinesefarmer{
-    display:inline-block;
-}
-
+/*
 .container{
     display: flex;
     justify-content: space-between;
 }
-.box{
-    border: solid 3px;
+*/
+
+
+.container1{
+    display: flex; /* elements side by side and take whole width */
+    padding-top: 100px;
+    align-items: stretch
+
+}
+.video{
+    display:none;
+    cursor: pointer;
+}
+
+
+.list{
+flex: 1;
+    list-style-type: none;
+    background-color: #bfb5d3;
+    padding: 5px;
 
 }
 
+.author{
+    font-weight: bolder;
+    font-size: x-large;
+    width: 10%
+    margin: auto;
+    padding: 30px 30px 10px 30px;
+}
+h1.story-title{
+
+    padding-top:20px;
+    padding-left: 30px;
+}
+
+.table{
+    margin: auto;
+    padding: 10px;
+    background-color: #bfb5d3;
+    display: flex;
+    flex-direction: column;
+    flex:3;
+    width: 50%;
+}
+.table h3{
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+figure{
+    position: relative;
+}
+.conclusion{
+    padding: 30px;
+    width: 60%;
+}
+
+.conclusion h3{
+    padding-bottom: 20px;
+}
 header{
 
-  position: fixed;
 }
-.container1{
+
+figure{
+    cursor:pointer;
 
 }
 

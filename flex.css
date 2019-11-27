@@ -1,0 +1,30 @@
+.container1{
+    display: flex;
+
+
+}
+
+
+.list{
+    align-items: stretch;
+    background-color: #8b364f;
+
+}
+
+.img{
+    border: red 3px solid;
+    align-items: center;
+
+}
+a:link{
+    text-decoration: none;
+    display: inline-block;
+}
+a:visited {
+    text-decoration: none;
+    display: inline-block;
+}
+
+a img{
+    display: block;
+}
