@@ -2,22 +2,10 @@
 *{
     font-family: 'Roboto', sans-serif;
 }
+
 body{
 
-
-
-  /*  background-image: url("https://cdn-images-1.medium.com/max/1000/1*2PCmLZyzQaF2pyKYkSTFpA.jpeg");
-    background-position: bottom right;
-    background-repeat: no-repeat;
-    background-size: cover;*/
     background: -webkit-linear-gradient(10deg, rgb(156, 118, 169), rgba(137, 153, 156, 0.92));
-
-
-    font-family: Roboto, sans-serif;
-    margin: auto;
-}
-
-main{
     margin: auto;
 }
 
@@ -45,26 +33,12 @@ q{
 }
 
 
-
-img{
-
-    height:300px;
-    /*display: inline-block;*/
-}
-
-.story{
-    width: 60%;
-}
-.video{
-    cursor: pointer;
-}
-
-
 .story{
 
     display: block;
     padding: 30px 30px 10px 30px;
     margin: auto;
+    width: 60%;
 
 }
 
@@ -126,27 +100,6 @@ p:first-of-type {
 }
 */
 
-
-.container1{
-    display: flex; /* elements side by side and take whole width */
-    padding-top: 100px;
-    align-items: stretch
-
-}
-.video{
-    display:none;
-    cursor: pointer;
-}
-
-
-.list{
-flex: 1;
-    list-style-type: none;
-    background-color: #bfb5d3;
-    padding: 5px;
-
-}
-
 .author{
     font-weight: bolder;
     font-size: x-large;
@@ -154,10 +107,32 @@ flex: 1;
     margin: auto;
     padding: 30px 30px 10px 30px;
 }
+
 h1.story-title{
 
     padding-top:20px;
     padding-left: 30px;
+}
+
+
+.container1{
+    display: flex; /* elements side by side and take whole width */
+    padding-top: 100px;
+
+
+}
+
+.list{
+    flex: 1;
+    list-style-type: none;
+    background-color: #bfb5d3;
+    padding: 5px;
+
+}
+
+.imglink{
+
+    flex: 1;
 }
 
 .table{
@@ -174,9 +149,7 @@ h1.story-title{
     padding-top: 10px;
 }
 
-figure{
-    position: relative;
-}
+
 .conclusion{
     padding: 30px;
     width: 60%;
@@ -185,12 +158,8 @@ figure{
 .conclusion h3{
     padding-bottom: 20px;
 }
-header{
 
-}
 
-figure{
-    cursor:pointer;
 
-}
+
 
